@@ -40,7 +40,7 @@ const Index = () => {
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-              Campus Tokens
+              EAT EASY
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
               Say goodbye to billing issues. Pay instantly with digital tokens across all cafeteria shops.
@@ -64,7 +64,7 @@ const Index = () => {
       {/* Features Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Campus Tokens?</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Why EAT EASY?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-6 shadow-card hover:shadow-glow transition-all duration-300">
               <div className="bg-gradient-primary p-3 rounded-lg w-fit mb-4">
@@ -175,7 +175,7 @@ const Index = () => {
             Ready to go cashless?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Join hundreds of students already using Campus Tokens for hassle-free cafeteria payments.
+            Join hundreds of students already using EAT EASY for hassle-free cafeteria payments.
           </p>
           <Button variant="secondary" size="lg" className="text-base shadow-lg">
             Create Your Account
@@ -186,7 +186,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 border-t">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>© 2024 Campus Tokens. Making campus dining easier, one token at a time.</p>
+          <p>© 2024 EAT EASY. Making campus dining easier, one token at a time.</p>
         </div>
       </footer>
     </div>

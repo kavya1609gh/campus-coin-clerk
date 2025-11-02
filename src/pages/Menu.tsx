@@ -66,7 +66,7 @@ const Menu = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <div>
-              <h1 className="text-2xl font-bold">Campus Tokens</h1>
+              <h1 className="text-2xl font-bold">EAT EASY</h1>
               <p className="text-sm text-muted-foreground">Cafeteria Menu</p>
             </div>
             <Button onClick={proceedToCheckout} className="gap-2">
