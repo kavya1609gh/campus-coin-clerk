@@ -5,7 +5,8 @@ import TokenCard from "@/components/TokenCard";
 import ShopCard from "@/components/ShopCard";
 import TransactionItem from "@/components/TransactionItem";
 import { Wallet, Store, Clock, Shield, Zap, QrCode } from "lucide-react";
-import heroImage from "@/assets/hero-cafeteria.jpg";
+import heroImage from "@/assets/hero-food-animated.jpg";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   // Mock data
@@ -45,12 +46,16 @@ const Index = () => {
               Say goodbye to billing issues. Pay instantly with digital tokens across all cafeteria shops.
             </p>
             <div className="flex gap-4">
-              <Button variant="hero" size="lg" className="text-base">
-                Get Started
-              </Button>
-              <Button variant="outline" size="lg" className="text-base">
-                Learn More
-              </Button>
+              <Link to="/menu">
+                <Button variant="hero" size="lg" className="text-base">
+                  View Menu
+                </Button>
+              </Link>
+              <Link to="/menu">
+                <Button variant="outline" size="lg" className="text-base">
+                  Order Now
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
