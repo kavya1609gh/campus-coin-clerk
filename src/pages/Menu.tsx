@@ -22,7 +22,7 @@ const Menu = () => {
 
   const menuItems: MenuItem[] = [
     // Main Course
-    { id: 1, name: "Classic Burger", price: 45, description: "Juicy beef patty with lettuce, tomato, and our special sauce", category: "main", image: "🍔" },
+    { id: 1, name: "Classic Burger", price: 45, description: "Delicious patty with lettuce, tomato, and our special sauce", category: "main", image: "🍔" },
     { id: 2, name: "Cheese Pizza", price: 60, description: "Wood-fired pizza with mozzarella and fresh basil", category: "main", image: "🍕" },
     { id: 3, name: "Chicken Sandwich", price: 50, description: "Grilled chicken breast with avocado and mayo", category: "main", image: "🥪" },
     { id: 4, name: "Veggie Wrap", price: 40, description: "Fresh vegetables wrapped in whole wheat tortilla", category: "main", image: "🌯" },

@@ -35,7 +35,14 @@ const Billing = () => {
     setTimeout(() => {
       setIsProcessing(false);
       toast.success("Payment successful! Order placed.");
-      navigate("/");
+      navigate("/receipt", { 
+        state: { 
+          cart, 
+          total,
+          orderId: `ORD${Math.floor(Math.random() * 10000).toString().padStart(4, '0')}`,
+          timestamp: new Date().toLocaleString()
+        } 
+      });
     }, 2000);
   };
 
