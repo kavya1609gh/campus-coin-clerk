@@ -51,9 +51,9 @@ const Index = () => {
                   View Menu
                 </Button>
               </Link>
-              <Link to="/menu">
+              <Link to="/auth">
                 <Button variant="outline" size="lg" className="text-base">
-                  Order Now
+                  Login / Sign Up
                 </Button>
               </Link>
             </div>
@@ -177,9 +177,11 @@ const Index = () => {
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
             Join hundreds of students already using EAT EASY for hassle-free cafeteria payments.
           </p>
-          <Button variant="secondary" size="lg" className="text-base shadow-lg">
-            Create Your Account
-          </Button>
+          <Link to="/auth">
+            <Button variant="secondary" size="lg" className="text-base shadow-lg">
+              Create Your Account
+            </Button>
+          </Link>
         </div>
       </section>
 
