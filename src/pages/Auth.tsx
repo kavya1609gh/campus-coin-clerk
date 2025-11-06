@@ -6,7 +6,16 @@ import { Card } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
-import { User, Session } from "@supabase/supabase-js";
+
+type User = {
+  id: string;
+  email?: string;
+};
+
+type Session = {
+  user: User;
+  access_token: string;
+};
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(true);
